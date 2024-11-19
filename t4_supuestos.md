@@ -1,3 +1,12 @@
+#Notas
+
+Dataset balanceado (buen muestreo)
+
+Para saber si es aprendizaje supervisado o no supervisado:
+- etiquetas de salida? si = supervisado, no = no supervisado
+- resultado es discreto (SI/NO) o continuo (regresión)
+
+
 # Respuestas
 
 ## Supuesto 1
@@ -97,6 +106,10 @@ Problema de clasificación: positivo/negativo/neutral.
 ## Supuesto 8
 
 ### Flores
+
+***Clasificación, tenemos un numero limitado de posibles clases de flores***
+esto importa porque en función de que sea un problema u otro aplicas un algoritmo y otro y puedes llegar a un resultado absurdo
+
 
 ## Supuesto 9
 

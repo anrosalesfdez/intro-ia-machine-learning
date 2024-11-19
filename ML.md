@@ -6,7 +6,10 @@ Capacidad de las máquinas para simular y realizar tareas que normalmente requie
 
 ## ML. Machine Learning
 
-A diferencia de la IA tradicional, donde los programas se diseñan con reglas explícitas, el ML construye modelos aprendiendo a partir de datos, y cuanto más datos se le proporcionan, más aprende y mejor es el modelo que construye.
+IA tradicional: los programas se diseñan con reglas explícitas => 
+datos + reglas => programción clásica => resultados
+x + f (funcion) => y
+ML: construye modelos aprendiendo a partir de datos, cuantos más datos se le proporcionan, más aprende y mejor es el modelo que construye.
 
 ## DL. Deep Learning
 
@@ -39,7 +42,7 @@ Métodos más comunes: clusterización (agrupamiento) de datos según similitude
 
 ### Aprendizaje Reforzado. Reinforcement Learning
 
-El   modelo recibe retroalimentación del entorno en forma de recompensas/penalizaciones por las acciones que realiza.
+El modelo recibe retroalimentación del entorno en forma de recompensas/penalizaciones por las acciones que realiza.
 
 Relación agente -> entorno
 
@@ -55,3 +58,42 @@ Conceptos:
 8. Función de valor (Value Function): Estima el valor de un estado, es decir, cuánta recompensa se puede esperar obtener a partir de ese estado.
 
 Ejemplo: el problema de Q-learning, juegos, robótica, automóviles autónomos, publicidad online, gestión de inventarios.
+
+#NOTAS
+variables de salida, son conjuntos discretos o continuos?
+discreto => clasificación
+continuos => regresión
+
+ejemplo diabetes, np load_dataset, puedes visualizarlo ocomo dataset pandas
+ojo porque si es si/no, si es una etiqueta discresión
+
+
+el dataset,el numero de datos depende de la varianza, en flores, o efecto de un medicamento en personas (vigo, amigos)
+-muestreo
+-distribución
+-sesgo
+
+correlación y causalidad, no es lo mismo puede ser que ambas cosas sean correladas por la misma causa
+correlación (features, variable de entrada) => muy predictor
+
+ejemplo de pétalos ya muestra colores clasificados sin haber entrenado el modelo
+
+si coges uno de 
+
+IMPORTANTE
+algoritmo de regresión logistica. es de clasificación no de regresión
+hace regresión sobre la probabilidad de que sea una y otra
+es regresión en cuanto a que mide probabilidad pero la finalidad es clasificar, categorizar 
+la forma de la regr logítica es una S
+
+
+
+
+
+no supervisado:
+clusterizado 
+reducción dimensionalidad: ver las caracteristicas que más ponderan. simplificar el modelo. aprendizaje no suèrvsado en fases de preprocesado.
+feature engineering.
+
+
+
